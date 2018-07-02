@@ -5,6 +5,8 @@
 <!-- One method to get references from the online citation libraries.
      There has to be one entity for each item to be referenced. 
      An alternate method (rfc include) is described in the references. -->
+<!ENTITY RFC5705 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.5705.xml">
+<!ENTITY RFC7301 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.7301.xml">
 <!ENTITY RFC5905 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.5905.xml">
 <!ENTITY RFC5906 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.5906.xml">
 <!ENTITY RFC2827 SYSTEM "http://xml.resource.org/public/rfc/bibxml/reference.RFC.2827.xml">
@@ -194,19 +196,33 @@
       opens a TCP connection to the other host, performs any initial
       handshake, and SHOULD issue a STARTTLS directive to create a
       secure channel between the two processes.
+      </t>
 
+      <t>
       Once that has been done, ...
+      </t>
 
-      <xref target="RFC5705>RFC 5705</xref>
+      <t>
+      <xref target="RFC5705">RFC 5705</xref>
+      </t>
 
-      <xref target="RFC7301>RFC 7301</xref>
+      <t>
+      <xref target="RFC7301">RFC 7301</xref>
+      </t>
 
+      <t>
       [Show how this works for Client/Server mode]
+      </t>
 
+      <t>
       [Show how this works for symmetric mode]
+      </t>
 
+      <t>
       [Show how this work for manycast/multicast]
+      </t>
 
+      <t>
       [Show how this would work for broadcast mode where the client
       can open a connection to the server]
       </t>
@@ -250,6 +266,10 @@
       <!--?rfc include="http://xml.resource.org/public/rfc/bibxml/reference.RFC.2119.xml"?-->
 
       &RFC2119;
+
+      &RFC5705;
+
+      &RFC7301;
 
       <!--?rfc include="http://xml.resource.org/public/rfc/bibxml/reference.RFC.5905.xml"?-->
 
